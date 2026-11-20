@@ -13,3 +13,17 @@ body {
     display: inline-block;
     height: 2em;
 }
+
+nav {
+    background-color: gray;
+    color: black;
+}
+
+.backdrop {/* Dimensions of the backdrop image */
+    width: 75vw;
+    margin: auto;
+}
+
+#backdrop-01 {
+    background-image: URL("images/room.jpg")/* Make sure to look for an image */;
+}
