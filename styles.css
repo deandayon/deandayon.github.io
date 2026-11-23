@@ -21,9 +21,11 @@ nav {
 
 .backdrop {/* Dimensions of the backdrop image */
     width: 75vw;
+    height: 75vh;
     margin: auto;
 }
 
 #backdrop-01 {
     background-image: URL("images/room.jpg")/* Make sure to look for an image */;
+    background-size: cover;
 }
